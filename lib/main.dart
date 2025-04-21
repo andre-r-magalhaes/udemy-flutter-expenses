@@ -15,10 +15,11 @@ class ExpensesApp extends StatelessWidget {
     return MaterialApp(
       home: MyHomePage(),
       theme: ThemeData(
-        //colorScheme: theme.colorScheme
-        //    .copyWith(primary: Colors.purple, secondary: Colors.amber),
         primarySwatch: Colors.purple,
         accentColor: Colors.amber,
+        colorScheme: theme.colorScheme
+            .copyWith(primary: Colors.purple, secondary: Colors.amber),
+
         // colorScheme: ColorScheme(
         //   primary: Colors.purple,
         //   secondary: Colors.amber,
